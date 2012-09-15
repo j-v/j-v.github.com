@@ -8,7 +8,7 @@
 
   victory = function(game) {
     var Game, animTile;
-    //root.location = 'robo:victory';
+    root.location = 'robo:victory';
     Game = game;
     animTile = function(tile, animType) {
       return tile.animate(animType);
@@ -29,11 +29,11 @@
   };
 
   match = function(game) {
-    //return root.location = 'robo:match';
+    return root.location = 'robo:match';
   };
 
   wrong = function(game) {
-    //return root.location = 'robo:wrong';
+    return root.location = 'robo:wrong';
   };
 
   $.ready = function() {
