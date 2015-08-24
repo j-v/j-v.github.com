@@ -46,6 +46,13 @@
     <script>
         $(document).ready(function() {
             $('a').smoothScroll();
+            // Sliding menu item click should close the menu
+            $('.sliding-menu-content a').on('click', function(e){
+                // $('#js-body').toggleClass('no-scroll');
+                $('#js-menu, #js-menu-screen').toggleClass('is-visible');
+                $('#js-menu-trigger').toggleClass('slide close');
+                // $('#masthead, #page-wrapper').toggleClass('slide');
+            });
         });
     </script>
   </body>
