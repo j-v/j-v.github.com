@@ -1,11 +1,16 @@
 # Site navigation links
 
+- title: About
+  url: /#about
+  excerpt: A little intro about myself
+  image:
+
 - title: Portfolio
-  url: /portfolio
+  url: /#portfolio
   excerpt: An overview of projects I have worked on
   image:
   
 - title: Play
   url: /edubotics-memory
   excerpt: Wild stuff
-  image: 
+  image:

@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: jonotron's info-box
+title: Jonathon Volkmar
 description: Jon Volkmar's portfolio, blog, and personal website
 logo: # 120x120 px default image used for Twitter summary card
-teaser: default-teaser.jpg # 400x250 px default teaser image used in image archive grid
+teaser: default-teaser-square.jpg # 400x250 px default teaser image used in image archive grid
 locale:
 url:
 
