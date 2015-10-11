@@ -9,7 +9,7 @@
   display: inline-block;
   width: $button-size;
   height: $button-size/7;
-  background: $white;
+  background: $nav-lines-color;
   transition: $transition;
 }
 
@@ -34,10 +34,10 @@
 .lines-button:hover {
   .nav-lines {
     &:before {
-      top: $button-size/3.5;
+      top: $button-size/2.5;
     }
     &:after {
-      top: -$button-size/3.5;
+      top: -$button-size/2.5;
     }
   }
 }

@@ -23,18 +23,22 @@ image:
 
 # Hi there
 
-Software Engineer at Microsoft, working on Text Input and Pen UX for Windows.
+I am a Software Engineer living in Seattle. I work at Microsoft on Pen UX for Windows. 
 
 I have a penchant for C++ programming and big data processing. 
 
-Interests in computer vision, graphics, music...
+I have interests in computer vision, graphics, and data visualization.
+
+[Download my resume]({{site-url}}/jon-volkmar-resume.pdf)
 
 <a name="portfolio"></a>
 
 # Portfolio
 
+Here are a few personal and academic projects I have worked on over the past few years.
+
 <div class="tiles">
-{% for post in site.categories.portfolio %}
+{% for post in site.categories.portfolio reversed %}
 	{% include portfolio-post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->

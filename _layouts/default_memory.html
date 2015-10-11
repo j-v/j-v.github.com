@@ -21,8 +21,13 @@
     <meta http-equiv="cleartype" content="on">
 
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <link rel="stylesheet" href="{{ site.url }}/css/pyro/style.css">
-    <link rel="stylesheet" href="{{ site.url }}/css/pyro/thickbox.css">
+    <style type="text/css">
+        #canvasDiv {
+            width: 870px;
+            height:700px;
+            margin: 0px auto;
+        }
+    </style>
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
@@ -45,36 +50,12 @@
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
 	<script src="{{ site.url }}/js/plugins/jquery.smooth-scroll.js"></script>
-    <!-- Pyro JavaScript -->
-    <script src="/js/pyro/modernizr-2.0.6.min.js"></script>
-    <script src="/js/pyro/game.js"></script>
-    <script src="/js/pyro/events.js"></script>
-    <script src="/js/pyro/gameModel.js"></script>
-    <script src="/js/pyro/cellTypes.js"></script>
-    <script src="/js/pyro/mapParser.js"></script>
-    <script src="/js/pyro/levels.js"></script>
-    <script src="/js/pyro/randomLevel.js"></script>
-    <script src="/js/pyro/pyro.js"></script>
-    <script src="/js/pyro/thickbox.js"></script>
-    <!-- end Pyro JavaScript -->
-    <script>
-        $(document).ready(function() {
-            $('a').smoothScroll();
-            // Sliding menu item click should close the menu
-            $('.sliding-menu-content a').on('click', function(e){
-                // $('#js-body').toggleClass('no-scroll');
-                $('#js-menu, #js-menu-screen').toggleClass('is-visible');
-                $('#js-menu-trigger').toggleClass('slide close');
-                // $('#masthead, #page-wrapper').toggleClass('slide');
-            });
-        });
-
-        $(function () {
-            $('li.large a').on("click", function (e) {
-                e.preventDefault();
-            });
-        });
-    </script>
+    <!-- Memory game JavaScript -->
+    <script src="{{ site.url }}/js/memory/models.js"></script>
+    <script src="{{ site.url }}/js/memory/game.js"></script>
+    <script src="{{ site.url }}/js/memory/edubotics.js"></script>
+    <script src="{{ site.url }}/js/memory/devices.js"></script>
+    <!-- Memory game JavaScript -->
   </body>
 
 </html>

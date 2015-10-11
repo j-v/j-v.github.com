@@ -32,19 +32,21 @@ $large-menu-width: 600;
   display: block;
   width: $button-size * 2;
   height: $button-size * 2;
-  background: $primary-color;
+  background: none;
   outline: 0;
   padding: 0;
   border: 2.5px solid transparent;
   cursor: pointer;
   z-index: 20;
   box-sizing: border-box;
+  /*
   &:hover {
     background: $black;
   }
+  */
   transition: $sliding-menu-animation;
   &.slide {
-    background: $danger-color;
+    background: $nav-button-color;
     transform: translateX(0); /* don't slide close button on small screens only */
     @include media($medium) {
       transform: translateX(em(-$small-menu-width)); /* reset slide position */
