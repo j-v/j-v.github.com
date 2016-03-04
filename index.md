@@ -25,7 +25,7 @@ image:
 
 I am a Software Engineer living in Seattle. I work at Microsoft on Pen UX for Windows. 
 
-I have a penchant for C++ programming and big data processing. 
+I have a penchant for C++ programming and big data processing. I am motivated by a fascination with technology and a drive to build the future! 
 
 I have interests in computer vision, graphics, and data visualization.
 
