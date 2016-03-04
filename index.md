@@ -29,7 +29,7 @@ I have a penchant for C++ programming and big data processing.
 
 I have interests in computer vision, graphics, and data visualization.
 
-[Download my resume]({{site-url}}/jon-volkmar-resume.pdf)
+Email: jon (at) jonvolkmar (dot) com
 
 <a name="portfolio"></a>
 
