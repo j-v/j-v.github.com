@@ -11,9 +11,6 @@ image:
     <a href="https://github.com/j-v/">
         <img src="/images/icons/github13.png" class="socialbadge"/>
     </a>
-    <a href="https://twitter.com/jonotron">
-        <img src="/images/icons/twitter21.png" class="socialbadge"/>
-    </a>
     <a href="https://www.linkedin.com/pub/jonathon-volkmar/28/a5b/522">
         <img src="/images/icons/linkedin12.png" class="socialbadge"/>
     </a>
@@ -23,11 +20,7 @@ image:
 
 # Hi there
 
-I am a Software Engineer living in Seattle. I work at Microsoft on Pen UX for Windows. 
-
-I have a penchant for C++ programming and big data processing. I am motivated by a fascination with technology and a drive to build the future! 
-
-I have interests in computer vision, graphics, and data visualization.
+I am Software Engineer living in Seattle, formerly at Microsoft. Interests include front-end web development, C++ systems and graphics programming, and data visualization.
 
 Email: jon (at) jonvolkmar (dot) com
 
