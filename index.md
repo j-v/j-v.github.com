@@ -20,7 +20,7 @@ image:
 
 # Hi there
 
-I am Software Engineer living in Seattle, formerly at Microsoft. Interests include front-end web development, C++ systems and graphics programming, and data visualization.
+I'm Jon, and I like computers. This website is old and outdated, but might be fun to poke around. 
 
 Email: jon (at) jonvolkmar (dot) com
 
@@ -28,7 +28,7 @@ Email: jon (at) jonvolkmar (dot) com
 
 # Portfolio
 
-Here are a few personal and academic projects I have worked on over the past few years.
+Here are a few personal and academic projects I have worked on in the past.
 
 <div class="tiles">
 {% for post in site.categories.portfolio reversed %}
